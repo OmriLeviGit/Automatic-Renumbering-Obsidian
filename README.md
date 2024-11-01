@@ -4,9 +4,11 @@ The Automatic Renumbering Plugin for Obsidian updates numbered lists automatical
 
 ## Installation
 
-1. Download and install from the Obsidian plugin directory.
-2. Enable the plugin in **Settings > Community plugins**.
-3. In the plugin's settings, match the tab size to the one in the editor's settings, which can be found at **Options → Editor → Tab indent size**.
+1. Download the latest release files.
+2. Create a folder for the files and place that folder in the plugin directory. You can find this by opening Obsidian and navigating to **Options → Community plugins**, where you'll see the folder icon and the refresh button next to **Installed plugins**.
+3. Click the refresh button next to **Installed plugins**.
+4. Enable the plugin.
+5. In the plugin settings, set the tab size to match the editor’s tab indent size, which you can find under **Options → Editor → Tab indent size**.
 
 ## Features
 
