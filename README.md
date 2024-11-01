@@ -1,12 +1,12 @@
 # Automatic Renumbering Plugin for Obsidian
 
-Automatically updates numbered lists to maintain sequential order, eliminating the need for manual adjustments. The plugin also supports nested lists and offers several commands for users who prefer manual control.
+The Automatic Renumbering Plugin for Obsidian updates numbered lists automatically to keep them in sequential order, including nested lists. It features live updates, smart pasting, and manual control options for easy editing.
 
 ## Installation
 
 1. Download and install from the Obsidian plugin directory.
 2. Enable the plugin in **Settings > Community plugins**.
-3. In the plugin's settings, match the tab size to the one in the editor's settings (4 by default). This can be found at **Options → Editor → Tab indent size**.
+3. In the plugin's settings, match the tab size to the one in the editor's settings, which can be found at **Options → Editor → Tab indent size**.
 
 ## Features
 
@@ -14,13 +14,21 @@ Automatically updates numbered lists to maintain sequential order, eliminating t
     Automatically renumbers lists in real time as edits are made, maintaining accurate keeping sequencing.
 
 -   **Pasting**:
-    Maintains correct sequencing when pasting numbered content. When live update is enabled, an optional smart-pasting feature can be activated to keep the sequencing consistent with the original numbered list.
+    Maintains correct sequencing when pasting numbered content. When live update is enabled, an optional smart pasting feature can be activated to keep the sequencing consistent with the original numbered list.
 
 -   **Special Key Handling**:
     Temporarily disables the live update when special keys (`Ctrl`, `Command` on Mac, or `Alt/Option`) are pressed during editing, enabling actions such as undo without triggering unnecessary renumbering.
 
 -   **Live Update Disabled**:
-    The live update feature can be disabled. Renumbering can be manually triggered through the available commands, allowing for greater control over when updates are applied.
+    The live update feature can be disabled. Renumbering can be manually triggered through the available commands.
+
+<br>
+<br>
+
+![Regular paste](resources/regular_paste.gif)
+![Smart paste](resources/smart_paste.gif)
+
+> Regular paste (left) | Smart paste (right).
 
 ### Commands (Ctrl + P)
 
