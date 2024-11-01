@@ -45,4 +45,4 @@ In addition, the plugin was tested with documents containing lists with over 10,
 
 -   **Vim Mode**: It is important to note that the plugin does not support automatic renumbering in Vim mode. However, renumbering commands can still be triggered while using Vim.
 
--   **Tab Size**: As far as i can tell, the number of spaces represented by a tab character cannot be accessed by plugins and must be specified manually. This is required in order to ensure correct nested numbering.
+-   **Tab indent Size**: For proper sequencing, the size of the indent must be specified manually. This is required in order to ensure correct nested numbering.
